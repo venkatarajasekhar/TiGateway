@@ -1,0 +1,32 @@
+*** Creating Trace Output File '.\rvmdk\psu.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\rvmdk\startup_rvmdk.o"'
+### List of Objects: adding '".\rvmdk\main.o"'
+### List of Objects: adding '".\rvmdk\pwm.o"'
+### List of Objects: adding '".\rvmdk\commands.o"'
+### List of Objects: adding '".\rvmdk\uart_comm.o"'
+### List of Objects: adding '".\rvmdk\timer_operations.o"'
+### List of Objects: adding '".\rvmdk\adc_run.o"'
+### List of Objects: adding '".\rvmdk\lcd.o"'
+### List of Objects: adding '".\rvmdk\i2c_comm.o"'
+### List of Objects: adding '".\rvmdk\utils.o"'
+### List of Objects: adding '".\rvmdk\pwm_gen.o"'
+### List of Objects: adding '".\rvmdk\gprs_comm.o"'
+### List of Objects: adding '".\rvmdk\scheduler.o"'
+### List of Objects: adding '"..\..\..\driverlib\rvmdk-cm4f\driverlib-cm4f.lib"'
+### ADS-LD Command completed:
+--cpu Cortex-M4.fp ".\rvmdk\startup_rvmdk.o" ".\rvmdk\main.o" ".\rvmdk\pwm.o" ".\rvmdk\commands.o" ".\rvmdk\uart_comm.o" ".\rvmdk\timer_operations.o" ".\rvmdk\adc_run.o" ".\rvmdk\lcd.o" ".\rvmdk\i2c_comm.o" ".\rvmdk\utils.o" ".\rvmdk\pwm_gen.o" ".\rvmdk\gprs_comm.o" ".\rvmdk\scheduler.o" C:\Users\cristian\Desktop\OMV_PROJECT\driverlib\rvmdk-cm4f\driverlib-cm4f.lib --library_type=microlib --strict --scatter "psu.sct" 
+--entry Reset_Handler --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\rvmdk\psu.map" -o .\rvmdk\psu.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\rvmdk\psu.axf'
+### ADS-LD Command File: '.\rvmdk\psu.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\rvmdk\psu.lnp', Handle=0x00000568
+### Writing '.lnp' file
+### ADS-LD Command file '.\rvmdk\psu.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

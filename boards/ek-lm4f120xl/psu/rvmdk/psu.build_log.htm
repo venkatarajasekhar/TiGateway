@@ -1,0 +1,53 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.18a
+Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: d Bogdan, d, LIC=PE72Z-JDEEU-BETHH-W2LDZ-6QJ6D-2G0K8
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Standard  Version: 5.18a
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 1 (build 61)
+Assembler:       Armasm.exe V5.06 update 1 (build 61)
+Linker/Locator:  ArmLink.exe V5.06 update 1 (build 61)
+Library Manager: ArmAr.exe V5.06 update 1 (build 61)
+Hex Converter:   FromElf.exe V5.06 update 1 (build 61)
+CPU DLL:         SARMCM3.DLL V5.18a
+Dialog DLL:      DCM.DLL V1.13.6.0
+Target DLL:      lmidk-agdi.dll V???
+Dialog DLL:      TCM.DLL V1.14.8.0
+ 
+<h2>Project:</h2>
+C:\Users\cristian\Desktop\OMV_PROJECT\boards\ek-lm4f120xl\psu\psu.uvproj
+Project File Date:  11/17/2016
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 1 (build 61)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'psu'
+assembling startup_rvmdk.S...
+compiling pwm.c...
+compiling commands.c...
+compiling main.c...
+compiling timer_operations.c...
+compiling uart_comm.c...
+compiling adc_run.c...
+compiling utils.c...
+compiling lcd.c...
+compiling i2c_comm.c...
+compiling GPRS_comm.c...
+GPRS_comm.c(9): warning:  #177-D: variable "c" was declared but never referenced
+      int c=0;
+GPRS_comm.c: 1 warning, 0 errors
+compiling scheduler.c...
+compiling pwm_gen.c...
+linking...
+Program Size: Code=10388 RO-data=1324 RW-data=1644 ZI-data=660  
+After Build - User command #1: fromelf --bin --output .\rvmdk\psu.bin .\rvmdk\psu.axf
+".\rvmdk\psu.axf" - 0 Error(s), 1 Warning(s).
+Build Time Elapsed:  00:00:03
+</pre>
+</body>
+</html>

@@ -1,0 +1,4 @@
+--cpu Cortex-M4.fp ".\rvmdk\startup_rvmdk.o" ".\rvmdk\main.o" ".\rvmdk\pwm.o" ".\rvmdk\commands.o" ".\rvmdk\uart_comm.o" ".\rvmdk\timer_operations.o" ".\rvmdk\adc_run.o" ".\rvmdk\lcd.o" ".\rvmdk\i2c_comm.o" ".\rvmdk\utils.o" ".\rvmdk\pwm_gen.o" ".\rvmdk\gprs_comm.o" ".\rvmdk\scheduler.o" C:\Users\cristian\Desktop\OMV_PROJECT\driverlib\rvmdk-cm4f\driverlib-cm4f.lib --library_type=microlib --strict --scatter "psu.sct" 
+--entry Reset_Handler --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\rvmdk\psu.map" -o .\rvmdk\psu.axf
