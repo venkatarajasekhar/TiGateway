@@ -21,7 +21,7 @@ static const char* comm_do_HTTP_GET = "AT+HTTPACTION=0\r\n";
 static const char* comm_enable_get_time = "AT+CLTS=1\r\n"; 
 static const char* comm_get_time = "AT+CCLK?\r\n";
 
-static const char * http_get_prefix = "AT+HTTPPARA=\"URL\",\"http://omv.tremend.ro//scrie.php?id=PowerTrainVoltage";
+static const char * http_get_prefix = "AT+HTTPPARA=\"URL\",\"http://****//scrie.php?id=PowerTrainVoltage";
 static const char * http_url_payload = "&data=";
 static const char * http_url_terminator = " miliVolts\"\r\n";
 
