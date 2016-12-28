@@ -16,7 +16,7 @@ static const char* comm_check_sim_unlock_status = "AT+CPIN?\r\n";
 static const char* comm_configure_bearer_apn = "AT+SAPBR=3,1,\"APN\",\"net\"\r\n";
 static const char* comm_configure_bearer_mode = "AT+SAPBR=1,1\r\n";
 static const char* comm_init_HTTP = "AT+HTTPINIT\r\n";
-static const char* comm_set_HTTP_params = "AT+HTTPPARA=\"URL\",\"http://omv.tremend.ro//scrie.php?id=10&data=testare_multipla_keil\"\r\n";
+static const char* comm_set_HTTP_params = "AT+HTTPPARA=\"URL\",\"http://****//scrie.php?id=10&data=testare_multipla_keil\"\r\n";
 static const char* comm_do_HTTP_GET = "AT+HTTPACTION=0\r\n";
 static const char* comm_enable_get_time = "AT+CLTS=1\r\n"; 
 static const char* comm_get_time = "AT+CCLK?\r\n";
